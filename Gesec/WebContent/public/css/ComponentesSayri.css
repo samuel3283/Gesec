@@ -1,0 +1,308 @@
+.c-widget-indicadorProgresoOperativa {
+    background: linear-gradient(#f5f7f8,#fefefe);
+    background: -moz-linear-gradient(#f5f7f8,#fefefe);
+    background: -ms-linear-gradient(#f5f7f8,#fefefe);
+    background: -o-linear-gradient(#f5f7f8,#fefefe);
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y1ZjdmOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f7f8), color-stop(100%, #fefefe));
+    background: -webkit-linear-gradient(#f5f7f8,#fefefe);
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    box-shadow: #fff 0 0 0 3px inset;
+    khtml-border-radius: 3px;
+    moz-border-radius: 3px;
+    moz-box-shadow: #fff 0 0 0 3px inset;
+    ms-border-radius: 3px;
+    o-border-radius: 3px;
+    o-box-shadow: #fff 0 0 0 3px inset;
+    padding: 0em;
+    position: relative;
+    webkit-border-radius: 3px;
+    webkit-box-shadow: #fff 0 0 0 3px inset;
+    width: 800px;
+}
+li#p_2 {width: 110px;}
+li#p_3 {width: 110px;}
+li#p_4 {width: 110px;}
+li#p_5 {width: 110px;}
+li#p_6 {width: 110px;}
+li#p_7 {width: 110px;}
+/*
+.c-widget-indicadorProgresoOperativa.pasos_2 li
+{
+    width: 94%;
+}
+
+.c-widget-indicadorProgresoOperativa.pasos_2 li.first
+{
+    width: 50%;
+}
+.c-widget-indicadorProgresoOperativa.pasos_2 li.last
+{    
+    width: 50%;
+}
+.c-widget-indicadorProgresoOperativa.pasos_2.actual_1 .barraProgreso
+{
+    width: 92%;
+}
+.c-widget-indicadorProgresoOperativa.pasos_3 li
+{
+    width: 37%;
+}
+.c-widget-indicadorProgresoOperativa.pasos_3 li.first
+{
+    width: 26%;
+}
+.c-widget-indicadorProgresoOperativa.pasos_3 li.last
+{
+    width: 28%;
+}
+.c-widget-indicadorProgresoOperativa.pasos_3.actual_1 .barraProgreso
+{
+    width: 46%;
+}
+.c-widget-indicadorProgresoOperativa.pasos_3.actual_2 .barraProgreso
+{
+    width: 92%;
+}
+*/
+
+.c-widget-indicadorProgresoOperativa ol.pasos
+{
+    width: 900px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li
+{
+    display: block;
+    float: left;
+    overflow-x: hidden;
+    position: relative;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li .pasoHover
+{
+    border: 1px solid transparent;
+    display: block;
+    height:68px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li .puntoFondo
+{
+    background: #d0dbe6;
+    border-radius: 10px;
+    display: block;
+    height: 14px;
+    khtml-border-radius: 10px;
+    left: 50%;
+    margin: -4px 0px 0px -4px;
+    moz-border-radius: 10px;
+    moz-transition-delay: 0.35s;
+    moz-transition-duration: 0.2s;
+    moz-transition-property: all;
+    ms-border-radius: 10px;
+    o-border-radius: 10px;
+    o-transition-delay: 0.35s;
+    o-transition-duration: 0.2s;
+    o-transition-property: all;
+    position: absolute;
+    text-indent: -999em;
+    top: 38px;
+    transition-delay: 0.35s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    webkit-border-radius: 10px;
+    webkit-transition-delay: 0.35s;
+    webkit-transition-duration: 0.2s;
+    webkit-transition-property: all;
+    width: 1.4em;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li .puntoFondo .punto
+{
+    background: #A6BFD6;
+    border-radius: 5px;
+    height: 8px;
+    khtml-border-radius: 5px;
+    left: 50%;
+    margin: -4px 0em 0em -4px;
+    moz-border-radius: 5px;
+    ms-border-radius: 5px;
+    o-border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    webkit-border-radius: 5px;
+    width: 8px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.pasado .punto
+{
+    background: #428B12;
+    border-radius: 15px;
+    height: 8px;
+    khtml-border-radius: 15px;
+    margin: -4px 0em 0em -4px;
+    moz-border-radius: 15px;
+    ms-border-radius: 15px;
+    o-border-radius: 15px;
+    webkit-border-radius: 15px;
+    width: 8px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.activo .puntoFondo
+{
+    border-radius: 15px;
+    height: 19px;
+    khtml-border-radius: 15px;
+    left: 52%;
+    margin: -3px 0em 0em -15.5px;
+    moz-border-radius: 15px;
+    ms-border-radius: 15px;
+    o-border-radius: 15px;
+    top: 35px;
+    webkit-border-radius: 15px;
+    width: 19px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.activo .puntoFondo .punto
+{
+    background: #428B12;
+    border-radius: 15px;
+    height: 11px;
+    khtml-border-radius: 15px;
+    margin: -5.5px 0em 0em -5.5px;
+    moz-border-radius: 15px;
+    ms-border-radius: 15px;
+    o-border-radius: 15px;
+    webkit-border-radius: 15px;
+    width: 11px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.activo .textoDescripcionPaso
+{
+    /*color: #317937;*/
+}
+
+.c-widget-indicadorProgresoOperativa ol.pasos li.activo.first .puntoFondo
+{
+    left: 18px;
+    margin-left: 0em;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.activo.last .puntoFondo
+{
+    right: 17px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.first .pasoHover
+{
+    padding-left: 20px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.first .pasoHover .barraProgresoPaso
+{
+    left: 3px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.first .puntoFondo
+{
+    left: 20px;
+    margin-left: 0em;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.first .textoDescripcionPaso
+{
+    margin-left: 0em;
+    text-align: left;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.first .barraProgresoPaso
+{
+    margin-left: 20px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.first.clicable:hover .pasoHover .barraProgresoPaso
+{
+    left: 5px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.last
+{
+    
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.last .pasoHover
+{
+    padding-right: 20px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.last .puntoFondo
+{
+    left: auto;
+    right: 20px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.last .textoDescripcionPaso
+{
+    text-align: right;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.last .barraProgresoPaso
+{
+    margin-left: -30px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.last.clicable:hover .pasoHover .barraProgresoPaso
+{
+    left: 6px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li.respondido .punto
+{
+    background: #428B12;
+    height: 8px;
+    margin: -4px 0em 0em -4px;
+    width: 8px;
+}
+.c-widget-indicadorProgresoOperativa ol.pasos li .textoDescripcionPaso
+{
+    color: #434a58;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 10.91px auto 0em;
+    text-align: center;
+    width: 100%;
+}
+.c-widget-indicadorProgresoOperativa .barraProgreso,.c-widget-indicadorProgresoOperativa .barraProgresoFondo
+{
+    display: block;
+    position: absolute;
+    text-indent: -9990px;
+}
+.c-widget-indicadorProgresoOperativa .barraProgreso
+{
+    background: #428b12;
+    width: 0em;
+    height: 4px;
+    left: 0em;
+    margin-left: 25px;
+    margin-top: 8px;
+    -webkit-transition-property: width;
+    -moz-transition-property: width;
+    -ms-transition-property: width;    
+    -o-transition-property: width;
+    transition-property: width;
+    top: 31px;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    
+}
+
+.c-widget-indicadorProgresoOperativa .barraProgresoFondo
+{
+    background: #d0dbe6;
+    height: 8px;
+    left: 22px;
+    top: 37px;
+    width: 93%;
+}
+.clearfix, div, article, section, nav, header, footer {
+    zoom: 1;
+}
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.indentado {
+    display: block;
+    left: -9999em;
+    line-height: 0;
+    position: absolute;
+    text-indent: -9999em;
+}

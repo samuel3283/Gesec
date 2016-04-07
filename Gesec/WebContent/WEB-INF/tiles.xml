@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+    <definition name="default" template="/layout/template1.jsp">
+        <put-attribute name="title" value="Sistema Gesec"/>
+        <put-attribute name="script" value="/layout/script.jsp"/>
+        <put-attribute name="scriptPage" value=""/>
+        <put-attribute name="head" value="/layout/head.jsp"/>
+        <put-attribute name="menu" value="/layout/menu.jsp"/>
+        <put-attribute name="izquierda" value="/layout/izquierda.jsp"/>
+        <put-attribute name="body" value=""/>
+	
+        <put-attribute name="izquierda2" value="/layout/izquierda2.jsp"/>
+        <put-attribute name="body2" value="/layout/body2.jsp"/>
+
+        <put-attribute name="foot" value="/layout/foot.jsp"/>
+    </definition>
+
+    <definition name="template0" template="/layout/default.jsp">
+        <put-attribute name="title" value="Sistema Gesec"/>
+        <put-attribute name="script" value="/layout/script.jsp"/>
+        <put-attribute name="scriptPage" value=""/>
+        <put-attribute name="head" value="/layout/head.jsp"/>
+        <put-attribute name="menu" value="/layout/menu.jsp"/>
+        <put-attribute name="body" value=""/>
+        <put-attribute name="foot" value="/layout/foot.jsp"/>
+    </definition>
+    <definition name="sinMenu" template="/layout/default.jsp">
+        <put-attribute name="title" value="Sistema Gesec"/>
+        <put-attribute name="script" value="/layout/script.jsp"/>
+        <put-attribute name="scriptPage" value=""/>
+        <put-attribute name="head" value="/layout/head.jsp"/>
+        <put-attribute name="menu" value=""/>
+        <put-attribute name="body" value=""/>
+        <put-attribute name="foot" value="/layout/foot.jsp"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,8 @@
+'use strict';
+
+bonitaApp.factory('ValidityUtil', function() {
+     
+    var validity = {};
+ 
+    return validity;
+});
